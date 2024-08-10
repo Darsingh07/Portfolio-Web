@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b956eaee9f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Darshanlogo.png" alt="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Darshan</span></h1>
+
+            </div>
+
+        </div>
+    </div>
+    <!----------------------about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img.jpeg" style="height: 700px;" width="650px">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>
+                        <span> Welcome! I'm Darshan.</span>
+                        <br>
+                        <br>
+                        As a skilled Frontend Developer, I bring websites to life with engaging designs and interactive
+                        features. My expertise in HTML, CSS, JavaScript & Reactjs allows me to develop seamless user
+                        experiences that captivate and inform. I am driven by a passion for innovation and a desire to
+                        make the web more accessible and enjoyable for everyone. Explore my work and see how I can turn
+                        ideas into reality.
+
+                    </p>
+                    <div class="tab-title">
+                        <P class="tab-links" onclick="opentab('skills')">Skills</P>
+                        <P class="tab-links" onclick="opentab('experience')"> Experience</P>
+                        <P class="tab-links" onclick="opentab('education')"> Education</P>
+                    </div>
+                    <div class="tab-container active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                            <li>REACT.JS</li>
+                            <li>JAVA</li>
+                            <li>SQL</li>
+                            <li>OOPS</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-container" id="experience">
+                        <ul>
+                            <li><span>(April-2024)-(July-2024)</span><br>Frontend Developer
+                                Intern <br> at Lg Electronics</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-container" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Btech. from Maharaj Agrasen Institute Of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-------------------Services------------------->
+    <div id="services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Developer</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque suscipit consequatur delectus
+                        dolore assumenda, iure
+                        <a href="#">Learn more</a>
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque suscipit consequatur delectus
+                        dolore assumenda, iure
+                        <a href="#">Learn more</a>
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque suscipit consequatur delectus
+                        dolore assumenda, iure
+                        <a href="#">Learn more</a>
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!------------------Portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.jpg">
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>The app connects you to the people around the world,Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-2.webp">
+                    <div class="layer">
+                        <h3>Flipkart Clone </h3>
+                        <p>The app connects you to the people around the world,Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-3.avif">
+                    <div class="layer">
+                        <h3>Social Media App </h3>
+                        <p>The app connects you to the people around the world,Download it from play store</p>
+                        <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+
+        </div>
+    </div>
+
+    <!---------------Contact---------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> example@yahoo.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Darshan Frontend Resume.pdf"   download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" class="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>
+                copyright @ Darshan. Made with    by Easy Tutorials
+            </p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontainers = document.getElementsByClassName("tab-container");
+
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (var tabcontainer of tabcontainers) {
+                tabcontainer.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-lnk");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+</body>
+
+</html>
